@@ -7,7 +7,7 @@ services:
       POSTGRES_PASSWORD: student
       POSTGRES_DB: dhg503
     ports:
-      - "5432:5432"
+      - "10503:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
       - ./seed.sql:/docker-entrypoint-initdb.d/seed.sql

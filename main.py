@@ -6,7 +6,7 @@ app = FastAPI()
 
 DB_CONFIG = {
     "host": "localhost",
-    "port": 5432,
+    "port": 10503,
     "dbname": "dhg503",
     "user": "student",
     "password": "student",
